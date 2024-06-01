@@ -4,9 +4,10 @@ import App from './App.tsx';
 import { Container, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import './index.css';
+import { theme } from './theme.ts';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <MantineProvider defaultColorScheme="dark">
+  <MantineProvider defaultColorScheme="dark" theme={theme}>
     <Container fluid>
       <App />
     </Container>

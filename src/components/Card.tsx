@@ -22,7 +22,8 @@ function DemoCard() {
         With Fjord Tours you can explore more of the magical fjord landscapes with tours.
       </Text>
 
-      <Button variant="light" color="blue" fullWidth mt="md" radius="md">
+      <h1>Hello there</h1>
+      <Button size="xs" fullWidth mt="md" radius="md" color="brand.3">
         Book classic tour now
       </Button>
     </Card>
